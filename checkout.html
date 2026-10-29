@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Checkout | FurniStore</title>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">Furni<span>Store.</span></a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="account.html">My Account</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <main class="checkout-page">
+
+        <section class="checkout-heading">
+            <p class="hero-label">ALMOST THERE</p>
+            <h1>Checkout</h1>
+            <p>Enter your details to complete your order.</p>
+        </section>
+
+        <section class="checkout-layout">
+
+            <form class="checkout-form" action="#" method="get">
+                <h2>Billing Information</h2>
+
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name"
+                       placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="Enter your phone number" required>
+
+                <label for="address">Delivery Address</label>
+                <textarea id="address" name="address"
+                          placeholder="Enter your delivery address"
+                          rows="4" required></textarea>
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city"
+                       placeholder="Enter your city" required>
+
+                <h2 class="payment-heading">Payment Method</h2>
+
+                <p class="payment-note">
+                    Payment options will be provided by the store.
+                </p>
+
+                <button type="submit" class="place-order-button">
+                    Submit Order Details
+                </button>
+
+                <a href="cart.html" class="checkout-back">
+                    Back to Cart
+                </a>
+            </form>
+
+            <aside class="order-summary">
+                <h2>Your Order</h2>
+
+                <div class="order-row">
+                    <span>Products</span>
+                    <span>Not selected</span>
+                </div>
+
+                <div class="order-row">
+                    <span>Delivery</span>
+                    <span>To be confirmed</span>
+                </div>
+
+                <div class="order-total">
+                    <span>Total</span>
+                    <span>To be confirmed</span>
+                </div>
+
+                <p class="order-note">
+                    Your order total will be confirmed after your
+                    furniture selection and delivery details are reviewed.
+                </p>
+            </aside>
+
+        </section>
+
+    </main>
+
+    <footer class="furni-footer">
+        <div class="footer-logo">FS.</div>
+
+        <h2>FurniStore</h2>
+
+        <p class="footer-tagline">
+            Modern Furniture for Beautiful Homes
+        </p>
+
+        <div class="footer-line"></div>
+
+        <p class="footer-credit-label">
+            Designed &amp; Created by
+        </p>
+
+        <p class="footer-creator">
+            Nana Khadija Muhammad
+        </p>
+    </footer>
+    <!-- <footer>
+        <p>© 2026 FurniStore. All rights reserved.</p>
+        <p>Beautiful Furniture for a Beautiful Home.</p>
+    </footer> -->
+
+</body>
+</html>
